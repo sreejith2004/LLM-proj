@@ -1,0 +1,38 @@
+# Core ML Libraries (optimized for Llama 1B)
+torch>=2.0.0
+transformers>=4.44.0  # Required for Llama 3.2 support
+datasets>=2.14.0
+accelerate>=0.24.0
+peft>=0.7.0  # Latest version for better Llama support
+bitsandbytes>=0.41.0
+tf-keras>=2.15.0  # Fix for Keras 3 compatibility issue
+
+# RAG and Vector Database
+langchain>=0.0.350
+langchain-community>=0.0.10
+faiss-cpu>=1.7.4
+chromadb>=0.4.15
+sentence-transformers>=2.2.2
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+nltk>=3.8.1
+rouge-score>=0.1.2
+
+# Web Interface
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+wandb>=0.16.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pyyaml>=6.0
+
+# Optional GPU acceleration
+# torch-audio  # Uncomment if needed
+# torchvision  # Uncomment if needed
